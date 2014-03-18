@@ -4,4 +4,6 @@ git add <file> : ajouter le fichier au suivi
 git commit : commit du répertoire
 git log : affiche les commit
 git config user.name [nom utilisateur]
-git config user.email [email]
+git config user.mail [email]
+
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
