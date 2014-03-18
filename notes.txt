@@ -1,0 +1,7 @@
+git init
+git status : avoir le statut
+git add <file> : ajouter le fichier au suivi
+git commit : commit du répertoire
+git log : affiche les commit
+git config user.name [nom utilisateur]
+git config user.email [email]
