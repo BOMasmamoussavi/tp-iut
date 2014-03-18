@@ -7,3 +7,9 @@ git config user.name [nom utilisateur]
 git config user.mail [email]
 
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+git branch (nom de branche) => crée le nouveau branche 
+git checkout nom de branche  => changement de branche 
+git merg nom fichier => fisuonne les 2 fichier 
+qit branch -d nom de branch => supprimer le branch 
+git rebase master => fisionne les 2 version et puis faire un merg
